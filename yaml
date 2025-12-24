@@ -1,0 +1,17 @@
+
+- Frontend communicates with backend using REST APIs
+- Backend handles business logic and database operations
+- MySQL stores users, questions, and quiz results
+
+---
+
+## 🛢️ Database Design
+
+### Tables Used:
+- **users**
+- **questions**
+- **quiz_results**
+
+Example:
+```sql
+CREATE DATABASE quiz_db_anshu;

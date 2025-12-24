@@ -1,44 +1,77 @@
-# Quiz App Frontend (React)
+# Interactive Quiz Application
 
-This is the frontend application for the Quiz App built using React. It allows users to take quizzes on various technologies and submit their answers.
+A full stack interactive quiz application developed using **React**, **Spring Boot**, and **MySQL**.  
+This application allows users to attempt quizzes, view their scores, and review answers, while admins can manage quiz questions.
 
-## Features
+---
 
-- Select a technology and quiz from the available options.
-- Answer multiple-choice questions for the selected quiz.
-- Submit the quiz and view the results.
+## 👤 Author
+**Anshu**  
+Full Stack Development Project
 
-## Installation
+---
 
-1. Clone the repository
-2. Navigate to the frontend directory: `cd quiz-app-frontend`
-3. Install the dependencies: `npm install`
+## 🧠 Project Overview
 
-## Backend Code:
+The Interactive Quiz Application is designed to test users’ knowledge through multiple-choice questions in an engaging and user-friendly manner.  
+The system supports quiz participation, automatic score calculation, and result display. An admin panel is provided for managing quiz questions.
 
-https://github.com/bhanujoshi24/teluskoContest
+---
 
-## Youtube Video:
+## ⚙️ Tech Stack
 
-Watch [here]()
+### Frontend
+- React.js
+- HTML5, CSS3
+- JavaScript (ES6)
 
-## Medium Blog :
+### Backend
+- Spring Boot
+- Java
+- REST APIs
 
-Read [here]
+### Database
+- MySQL
 
-## Usage
+### Tools
+- Git & GitHub
+- VS Code
+- Postman
 
-1. Start the React development server: `npm start`
-2. Open your browser and visit `http://localhost:3000` to access the Quiz App frontend.
+---
 
-## Configuration
+## ✨ Features
 
-The Quiz App frontend requires the backend API to be running. By default, it expects the backend to be running at `http://localhost:8080`. If your backend is running at a different address, you can update the API endpoint in the `src/api/apiConfig.js` file.
+### User Features
+- View quiz questions
+- Select answers and submit quiz
+- Automatic score calculation
+- View quiz results
 
-```javascript
-// src/api/apiConfig.js
+### Admin Features
+- Add quiz questions
+- Update existing questions
+- Delete questions
+- Manage quiz content
 
-const BASE_URL = "http://localhost:8080/api"; // Update this URL if needed
+---
 
-export default BASE_URL;
-```
+## 🏗️ System Architecture
+
+## 📂 Frontend Source Code Structure (`src`)
+
+The `src` folder contains all React components, styles, and logic for the quiz application.
+
+- `App.js` – Root component managing application flow
+- `index.js` – Application entry point
+- `Login.js` – User login component
+- `AdminLogin.js` – Admin authentication component
+- `QuizGenerator.js` – Loads and manages quiz questions
+- `QuizPage.js` – Displays quiz interface
+- `ShowUserResponse.js` – Displays user answers and results
+- `ShowQuestions.js` – Admin question management panel
+- `EditQuestionModal.js` – Modal for editing quiz questions
+- `HeaderNav.js` – Common navigation bar
+- `UserHeaderNav.js` – User-specific navigation bar
+- `App.css`, `index.css` – Styling files
+- `App.test.js`, `setupTests.js` – Testing configuration
