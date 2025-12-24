@@ -1,8 +1,9 @@
+// Changes: Added top-of-file comment on 2025-12-24 noting edits in repository
 import React, { useState } from "react";
 import axios from "axios";
 import { HeaderNav } from "./HeaderNav";
 import { useLocation } from "react-router-dom";
-
+// 
 const AdminLogin = () => {
   const [question, setQuestion] = useState("");
   const [option1, setOption1] = useState("");

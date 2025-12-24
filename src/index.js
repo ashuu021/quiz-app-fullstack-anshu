@@ -1,3 +1,4 @@
+// Changes: Added top-of-file comment on 2025-12-24 noting edits in repository
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";

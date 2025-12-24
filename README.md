@@ -3,6 +3,8 @@
 A full stack interactive quiz application developed using **React**, **Spring Boot**, and **MySQL**.  
 This application allows users to attempt quizzes, view their scores, and review answers, while admins can manage quiz questions.
 
+<!-- Changes: Added top-level note on 2025-12-24 — inserted short comments at top of JS/CSS/HTML files to indicate edits. -->
+
 ---
 
 ## 👤 Author

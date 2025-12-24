@@ -1,3 +1,4 @@
+// Changes: Added top-of-file comment on 2025-12-24 noting edits in repository
 import React from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
